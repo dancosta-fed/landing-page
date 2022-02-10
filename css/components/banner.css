@@ -1,0 +1,36 @@
+/* CONTAINNER */
+
+.container{
+  width: 900px;
+  margin: 0 auto;
+}
+
+/* BANNER */
+
+.banner{
+  background-image: url(../../images/onda-teahupoo.jpeg);
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+  display: flex;
+  justify-content: center;
+  color: whitesmoke;
+}
+
+.banner h1, p {
+  text-shadow: 1px 0 black;
+}
+
+.apply-btn{
+  display: inline-block;
+  background-color: whitesmoke;
+  color: #1E556B;
+  padding: 16px 36px;
+  border-radius: 12px;
+  font-weight: bold
+}
+
+.apply-btn:hover{
+  background-color:#1E556B;
+  color: whitesmoke;
+}

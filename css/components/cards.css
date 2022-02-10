@@ -1,0 +1,28 @@
+/* CARDS */
+
+.cards{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.card{
+  width: 234px;
+  border-radius: 15px;
+  box-shadow: 0 0 5px whitesmoke;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #E6E6E6;
+  margin-right: 75px;
+}
+
+.card:hover{
+  box-shadow: 0 0 #1E556B;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.card img{
+  width: 100px;
+}
